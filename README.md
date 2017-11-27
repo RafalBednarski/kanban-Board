@@ -14,9 +14,9 @@ Move cards between the columns
 
 Used:
 
-JS/jQuery
-Git
-Grunt
-RWD
-CSS
+JS/jQuery/
+Git/
+Grunt/
+RWD/
+CSS/
 HTML
