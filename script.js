@@ -35,7 +35,7 @@ function Column(name) { //KLASA/KONSTRUKTOR
         });
 
         // TWORZENIE ELEMENTÓW KOLUMN
-        $column.append($columnTitle) //nie rozumiem przegadać!!
+        $column.append($columnTitle)
             .append($columnDelete)
             .append($columnAddCard)
             .append($columnCardList);
@@ -75,7 +75,7 @@ function Card(description) { //PROTOTYP CARD
         });
 
         // SKŁADANIE I ZWRACANIE KARTY
-        $card.append($cardDelete) //omówić!!!!!
+        $card.append($cardDelete)
             .append($cardDescription);
 
         return $card;
@@ -107,7 +107,7 @@ var board = {
 };
 
 function initSortable() {
-    $('.column-card-list').sortable({ //omówić!!
+    $('.column-card-list').sortable({
         connectWith: '.column-card-list',
         placeholder: 'card-placeholder'
     }).disableSelection();
